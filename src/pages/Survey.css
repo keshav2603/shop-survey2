@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.surveypage{
+    width:100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+
+.surveyHeading{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.displayquestion{
+    width:100vw;
+    display: flex;
+    align-items: flex-end;
+    height: 40vh;
+}
+.displayquestion img{
+    height: 200px;
+}
+#questionplace{
+    height: 100px;
+    background-color: aliceblue;
+    width :80%;
+    margin-bottom: 3%;
+    color:black;
+    border-radius: 10px;
+    display: flex;
+    font-size: 1.7rem;
+    
+}
+.displayque{
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 80%;
+}
+.displayQuenumber{
+    width: 20%;
+    text-align: center;
+    
+}
+
+.ratingarea{
+    height: 25vh;
+}
+.navigate-question{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#prevbtn{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+    margin-right: 50px;
+}
+
+#nextbtn{
+    height: 50px;
+    width: 100px;
+    background-color:deeppink;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    color: white;
+    margin-left: 50px;
+}
+
+.user-rating-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background-color:gold;
+    margin: 5px;
+}
+.user-rating-btn:hover{
+ background-color: red;
+}
+.user-rating-btn:focus{
+    background-color: green;
+}
+
+.ratingarea{
+    margin-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.user-text-input{
+    min-width:60%;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+}
+
+.selected{
+    background-color: green;
+}

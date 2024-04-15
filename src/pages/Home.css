@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.welcomePage{
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcomeMessage{
+    font-size: 5.2em;
+  line-height: 1.1;
+  color: rgba(255, 255, 255, 0.87);
+  margin-bottom: 10px;
+
+}
+.welcomeimagecont{
+    width:80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#startBtn{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color:greenyellow;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: #1A1A1A;
+    margin-bottom: 10px;
+
+}
+#startBtn:hover{
+        border-color: #646cff;
+}
